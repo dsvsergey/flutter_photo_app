@@ -17,9 +17,10 @@ The project follows Clean Architecture principles
 
 ## Requirements
 
-- Flutter SDK: ^3.9.2
+- Flutter SDK: 3.35.5 (stable channel)
+- Dart SDK: 3.9.2
 - Android: minSdk 30 (Android 11+)
-- iOS: iOS 12+
+- iOS: iOS 13.0+
 
 ## Setup
 
