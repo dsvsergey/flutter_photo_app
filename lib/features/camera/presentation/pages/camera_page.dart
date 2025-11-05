@@ -62,8 +62,9 @@ class _CameraPageState extends ConsumerState<CameraPage> {
     final state = ref.watch(cameraProvider);
 
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: Colors.white,
       body: SafeArea(
+        bottom: false,
         child: Stack(
           children: [
             // Camera preview - full screen
